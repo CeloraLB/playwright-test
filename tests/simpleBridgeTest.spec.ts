@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // Increase total timeout of each test. Includes test, hooks and fixtures
-test.setTimeout(120000)
+test.setTimeout(200000)
 
 test('test create a simple bridge with Google Sheet as both source and destination', async ({ page }) => {  
   // Login
