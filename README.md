@@ -60,4 +60,5 @@ The tab has 4 buttons on top. From left to right:
 
 ### Record at cursor
 
-If we need to add a single assertion on a page we can simply use the "Record at cursor" functionality which will add only the assertion that we need without recording all our actions in the page.
+If we need to add a single assertion on a page we can simply use the "Record at cursor" functionality which will add only a single assertion or action.
+It can be usefult to add asertions or action to an already existing test without creating a new one.
