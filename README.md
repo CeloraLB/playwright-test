@@ -23,3 +23,16 @@ This plugin gives many possibility. The main ones are:
  - debug the tests
  - show browser window during tests
  - record a new tests from a browser and convert it into code
+
+### VS Code issue (MacOS)
+
+A possible issue is in the "testing" tab of VSCode the tests are not showing in the test explorer after installing the plugin. 
+If a simple restart of VSCode is not enough, to fix this issue is necessary to do the following steps:
+- make sure VSCode is in the Application folder
+- add to ~/.bash_profile, or to ~/.zshrc the line to add VSCode to PATH 
+```
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+```
+- close VSCode if is open
+- start a new terminal and navigate in the workspace folder
+- launch the command "code ."
