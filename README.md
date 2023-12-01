@@ -11,10 +11,10 @@ npm init playwright@latest
 During installation it is possible to config paywright. 
 The installation command will ask 4 questions:
 
-✔ Do you want to use TypeScript or JavaScript? · TypeScript
-✔ Where to put your end-to-end tests? · tests
-✔ Add a GitHub Actions workflow? (y/N) · true
-✔ Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
+- ✔ Do you want to use TypeScript or JavaScript? · TypeScript
+- ✔ Where to put your end-to-end tests? · tests
+- ✔ Add a GitHub Actions workflow? (y/N) · true
+- ✔ Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
 
 ## VS Code plugin
 
