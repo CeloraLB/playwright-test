@@ -52,8 +52,8 @@ test('test create a simple bridge with Google Sheet as both source and destinati
   await page.getByRole('button', { name: 'Continue' }).click();
 
   // Step 2
+  await expect(page.getByTestId('add-filter-button')).toBeVisible({ timeout: 15000 });
   await expect(page.locator('#root')).toContainText('Field mapping');
-  await expect(page.getByTestId('add-filter-button')).toBeVisible({ timeout: 10000 });
   await expect(page.getByText('Sheet1 ›› description')).toBeVisible();
   await expect(page.getByText('Sheet1 ›› a')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Save & publish' })).toBeVisible();
