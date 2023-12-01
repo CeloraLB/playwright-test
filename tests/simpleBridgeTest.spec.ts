@@ -70,4 +70,6 @@ test('test create a simple bridge with Google Sheet as both source and destinati
   // Search bridge in bridge list (needs to be dynamic based on the bridge name / id)
   // await expect(page.getByPlaceholder('New bridge (10) - Enabled')).toBeVisible({ timeout: 10000 });
   // await expect(page.locator('#row_569716')).toContainText('New bridge (10) - Enabled');
+
+  await page.close()
 });
